@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace Meny
-{
+{// test
     class Program
     {
         static void Main(string[] args)
