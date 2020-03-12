@@ -31,7 +31,7 @@ namespace Meny
                         }
                     case "2":
                         {
-                            GroupPrice();
+                            PriceForGroup();
                             break;
                         }
                     case "3":
@@ -56,7 +56,7 @@ namespace Meny
             Console.WriteLine($"Det tredje ordet i meningen är \"{words[2]}\".");                             
         }
 
-        private static void GroupPrice()
+        private static void PriceForGroup()
         {
             Console.WriteLine("Ange hur många ni är i gruppen: ");
             int nrOfPersons = int.Parse(Console.ReadLine());
