@@ -52,7 +52,7 @@ namespace Meny
         {
             Console.Write("Skriv in en mening med minst 3 ord: ");
             string sentence = Console.ReadLine();
-            var words = sentence.Split(" ");          
+            var words = sentence.Split(" ", StringSplitOptions.RemoveEmptyEntries);          
             Console.WriteLine($"Det tredje ordet i meningen är \"{words[2]}\".");                             
         }
 
