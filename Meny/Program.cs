@@ -36,7 +36,7 @@ namespace Meny
                         }
                     case "3":
                         {
-                            splitSentence();
+                            SplitSentence();
                             break;
                         }
                     default:
@@ -48,7 +48,7 @@ namespace Meny
             }
         }
 
-        private static void splitSentence()
+        private static void SplitSentence()
         {
             Console.Write("Skriv in en mening med minst 3 ord: ");
             string sentence = Console.ReadLine();
